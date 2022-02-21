@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-02 14:28+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: learnpress-fill-in-blank.php:51
+#, php-format
+msgid ""
+"<strong>%s</strong> addon version %s requires %s version %s or higher is "
+"<strong>installed</strong> and <strong>activated</strong>."
+msgstr ""
+
+#: learnpress-fill-in-blank.php:52
+msgid "LearnPress Fill In Blank"
+msgstr ""
+
+#: learnpress-fill-in-blank.php:54
+msgid "LearnPress"
+msgstr ""
+
+#: inc/functions.php:80
+msgid "Are you sure to remove all blanks?"
+msgstr ""
+
+#: inc/load.php:298
+msgid "Fill In Blank"
+msgstr ""
+
+#: inc/admin/class-upgrade-database.php:19
+msgid "Fill in blank"
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:8
+msgid ""
+"Select a word in passage above and click <strong>'Insert new blank'</strong> "
+"to make that word is a blank for filling."
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:13
+msgid "Insert new blank"
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:16
+msgid "Clear all blanks"
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:18
+msgid "Clear content"
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:34
+msgid "Options"
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:36
+msgid "Delete"
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:47
+msgid "Match case"
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:48
+msgid "Match two words in case sensitive."
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:50
+msgid "Comparison"
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:55
+msgid "Equal"
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:56
+msgid "Match two words are equality."
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:62
+msgid "Range"
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:63
+msgid ""
+"Match any number in a range. Use <code>100, 200</code> will match any value "
+"from 100 to 200."
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:69
+msgid "Any"
+msgstr ""
+
+#: inc/admin/views/answer-editor.php:70
+msgid ""
+"Match any value in a set of words. Use <code>fill, blank, question</code> "
+"will match any value in the set."
+msgstr ""
+
+#: inc/admin/views/tool-upgrade.php:2
+msgid "Upgrade question Fill in blank"
+msgstr ""
+
+#: inc/admin/views/tool-upgrade.php:4
+msgid ""
+"This action will upgrade data of question from older version to latest for "
+"Fill in blank type"
+msgstr ""
+
+#: inc/admin/views/tool-upgrade.php:6
+msgid "Upgrade now"
+msgstr ""
+
+#: templates/answer.php:17
+msgid "Invalid question!"
+msgstr ""

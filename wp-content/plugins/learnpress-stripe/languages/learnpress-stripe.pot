@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Package Name\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-01 11:47+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: learnpress-stripe.php:50
+#, php-format
+msgid ""
+"<strong>%s</strong> addon version %s requires %s version %s or higher is "
+"<strong>installed</strong> and <strong>activated</strong>."
+msgstr ""
+
+#: learnpress-stripe.php:51
+msgid "LearnPress Stripe Payment"
+msgstr ""
+
+#: learnpress-stripe.php:53
+msgid "LearnPress"
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:73
+msgid "Make a payment with Stripe."
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:121
+msgid "Enable"
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:128
+msgid "Title"
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:129
+msgid "Stripe"
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:145
+msgid "Description"
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:146
+msgid "Pay with Credit Card"
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:164
+msgid "Live secret key"
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:185
+msgid "Live publish key"
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:205
+msgid "Enable test mode"
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:222
+msgid "Test secret key"
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:243
+msgid "Test publish key"
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:459
+msgid "Card number is empty."
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:462
+msgid "Card expiry is empty."
+msgstr ""
+
+#: inc/class-lp-gateway-stripe.php:465
+msgid "Card code is empty."
+msgstr ""
+
+#: inc/load.php:108
+msgid "Settings"
+msgstr ""
+
+#: templates/form.php:24
+msgid "Card Number <span class=\"required\">*</span>"
+msgstr ""
+
+#: templates/form.php:29
+msgid "Expiry (MM/YY) <span class=\"required\">*</span>"
+msgstr ""
+
+#: templates/form.php:51
+msgid "Card Code <span class=\"required\">*</span>"
+msgstr ""
+
+#: templates/form.php:57
+msgid ""
+"Test mode is enabled. You can use the card number 4242424242424242 with any "
+"CVC and a valid expiration date for testing purpose."
+msgstr ""

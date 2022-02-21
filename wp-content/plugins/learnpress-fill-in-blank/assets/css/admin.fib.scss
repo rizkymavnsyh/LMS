@@ -1,0 +1,180 @@
+.admin-fib-question-editor,
+.admin-quiz-fib-question-editor {
+    .lp-box-data-content {
+        textarea {
+            width: 100%;
+            min-height: 200px;
+            margin-bottom: 20px;
+        }
+        .description {
+            margin-top: 10px;
+            font-style: italic;
+        }
+        .invalid {
+            color: #FF0000;
+        }
+        .fib-blanks {
+            width: 100%;
+            border-collapse: collapse;
+            tbody {
+                &.invalid {
+                    color: #FF0000;
+                    .blank-actions {
+                        .blank-status {
+                            color: #000;
+                            &:before {
+                                content: "\f335";
+                                color: #FF0000;
+                            }
+                        }
+                    }
+                }
+                &.open {
+                    .blank-options {
+                        ul {
+                            display: block;
+                        }
+                    }
+                }
+                tr {
+                    background: #F5F5F5;
+                }
+                &:nth-of-type(odd) {
+                    tr {
+                        background: #f4fcff;
+                    }
+                }
+            }
+            td {
+                &.blank-position {
+                    text-align: right;
+                    font-weight: bold;
+                }
+                &.blank-fill {
+                    input {
+                        width: 100%;
+                        height: 28px;
+                    }
+                }
+                &.blank-actions {
+                    text-align: right;
+                    .delete {
+                        color: #FF0000;
+                    }
+                    .blank-status {
+                        float: left;
+                        font-family: Dashicons;
+                        display: inline-block;
+                        font-size: 20px;
+                        margin-top: 5px;
+                        &:before {
+                            content: "\f147";
+                            color: #00a0d2;
+                        }
+                        &.invalid {
+
+                        }
+                    }
+                }
+            }
+        }
+        .fib-blank {
+            > tr > td {
+                padding: 5px 5px 5px 0;
+            }
+            .blank-options {
+                td {
+                    padding: 0 5px 0 0;
+                    ul {
+                        margin: 5px 0;
+                    }
+                }
+            }
+        }
+    }
+    .blank-options {
+        ul {
+            display: none;
+            padding: 20px;
+            border: 1px solid #DDD;
+            list-style: none;
+            background: #FFF;
+            margin: 0;
+            li {
+                .description {
+                    margin-top: 0;
+                }
+                h3 {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+.mce-branding-powered-by {
+    display: none;
+}
+
+.mce-tinymce {
+    border: 1px solid #DDD !important;
+}
+
+#admin-editor-lp_quiz,
+#admin-editor-lp_question {
+    .content-editable {
+        min-height: 300px;
+        border: 1px dashed #DDD;
+        padding: 12px 15px;
+        .fib-blank {
+            color: #2196F3;
+            position: relative;
+            &:before {
+                content: "#" attr(data-index) ". ";
+            }
+            &:after {
+                border-bottom: 1px dashed #797979;
+                position: absolute;
+                bottom: 1px;
+                left: 0px;
+                right: 0;
+            }
+        }
+        p {
+            margin-top: 0;
+        }
+    }
+}
+
+#admin-editor-lp_quiz {
+    .admin-quiz-fib-question-editor {
+        .lp-box-data-content {
+            border: none;
+            text-align: left;
+            textarea {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            .description {
+                text-align: left;
+            }
+        }
+    }
+}
+
+.button {
+    &.ajaxloading {
+        &:after {
+            content: "\f463";
+            display: inline-block;
+            font: 400 20px/1 dashicons;
+            margin: 3px 0 0 5px;
+            speak: none;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            vertical-align: top;
+            -webkit-animation: rotation 2s infinite linear;
+            animation: rotation 2s infinite linear;
+        }
+    }
+}

@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-24 14:39+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: learnpress-co-instructor.php:59
+#, php-format
+msgid ""
+"<strong>%s</strong> addon version %s requires %s version %s or higher is "
+"<strong>installed</strong> and <strong>activated</strong>."
+msgstr ""
+
+#: learnpress-co-instructor.php:60
+msgid "LearnPress Co-Instructor"
+msgstr ""
+
+#: learnpress-co-instructor.php:62
+msgid "LearnPress"
+msgstr ""
+
+#: inc/load.php:299
+msgid "All"
+msgstr ""
+
+#: inc/load.php:300
+msgid "Mine"
+msgstr ""
+
+#: inc/load.php:301
+msgid "Published"
+msgstr ""
+
+#: inc/load.php:302
+msgid "Private"
+msgstr ""
+
+#: inc/load.php:303
+msgid "Pending Review"
+msgstr ""
+
+#: inc/load.php:304
+msgid "Scheduled"
+msgstr ""
+
+#: inc/load.php:305
+msgid "Draft"
+msgstr ""
+
+#: inc/load.php:306
+msgid "Trash"
+msgstr ""
+
+#: inc/load.php:307
+#: inc/emails/class-lp-co-instructor-email-enrolled-course.php:29
+msgid "Co-instructor"
+msgstr ""
+
+#: inc/load.php:610
+msgid "Co-Instructors"
+msgstr ""
+
+#: inc/load.php:612
+msgid "Colleagues will work with you."
+msgstr ""
+
+#: inc/load.php:612
+msgid "There is no instructor to select. Create <a href=\""
+msgstr ""
+
+#: inc/load.php:621
+msgid "Instructors"
+msgstr ""
+
+#: inc/load.php:702 inc/load.php:798
+msgid "Instructor"
+msgstr ""
+
+#: inc/load.php:707
+msgid "This is a slug and should be unique."
+msgstr ""
+
+#: inc/load.php:707
+msgid "Example link is"
+msgstr ""
+
+#: inc/emails/class-lp-co-instructor-email-enrolled-course.php:30
+msgid "Send this email to co-instructor when they have enrolled course."
+msgstr ""
+
+#: inc/emails/class-lp-co-instructor-email-enrolled-course.php:35
+msgid "{{user_display_name}} has enrolled course"
+msgstr ""
+
+#: inc/emails/class-lp-co-instructor-email-enrolled-course.php:36
+msgid "Enrolled course"
+msgstr ""
+
+#: inc/emails/class-lp-co-instructor-email-finished-course.php:29
+msgid "Co-Instructor"
+msgstr ""
+
+#: inc/emails/class-lp-co-instructor-email-finished-course.php:30
+msgid ""
+"Send this email to co-instructor of course when a user finished the course"
+msgstr ""
+
+#: inc/emails/class-lp-co-instructor-email-finished-course.php:35
+msgid "[{{site_title}}] You have finished this course ({{course_name}})"
+msgstr ""
+
+#: inc/emails/class-lp-co-instructor-email-finished-course.php:36
+msgid "{{user_display_name}} has finished course"
+msgstr ""
+
+#: inc/emails/class-lp-co-instructor-email-finished-course.php:37
+msgid "Finished course"
+msgstr ""
+
+#: templates/profile-tab.php:36
+msgid "There isn't any courses created by you as an instructor."
+msgstr ""

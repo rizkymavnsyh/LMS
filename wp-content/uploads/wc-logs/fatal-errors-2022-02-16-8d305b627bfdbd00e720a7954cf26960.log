@@ -1,0 +1,64 @@
+2022-02-16T07:32:44+00:00 CRITICAL Uncaught Error: Class 'ActionScheduler_AdminView' not found in /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php:41
+Stack trace:
+#0 /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(148): ActionScheduler::admin_view()
+#1 /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init('/home/rizkymau/...')
+#2 /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_3_dot_0()
+#3 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(305): ActionScheduler_Versions::initialize_latest_version()
+#4 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /home/rizkymau/public_html/lms/wp-includes/plugin.php(474): WP_Hook->do_action(Arra di /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php pada baris 41
+
+2022-02-16T08:15:06+00:00 CRITICAL Uncaught Error: Class 'WooCommerce\PayPalCommerce\Session\Cancellation\CancelController' not found in /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-session/services.php:37
+Stack trace:
+#0 /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce-paypal-payments/vendor/dhii/containers/src/DelegatingContainer.php(117): WooCommerce\PayPalCommerce\Session\SessionModule->WooCommerce\PayPalCommerce\Session\{closure}(Object(Dhii\Container\DelegatingContainer))
+#1 /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce-paypal-payments/vendor/dhii/containers/src/DelegatingContainer.php(56): Dhii\Container\DelegatingContainer->invokeFactory(Object(Closure))
+#2 /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce-paypal-payments/vendor/dhii/containers/src/CompositeContainer.php(53): Dhii\Container\DelegatingContainer->get('session.cancell...')
+#3 /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce-paypal-payments/vendor/dhii/containers/src/Caching di /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce-paypal-payments/modules/ppcp-session/services.php pada baris 37
+
+2022-02-16T08:15:40+00:00 CRITICAL require_once(): Failed opening required '/home/rizkymau/public_html/lms/wp-content/themes/eduma/inc/widgets/class-extend-icons.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') di /home/rizkymau/public_html/lms/wp-content/themes/eduma/inc/thim-core-function.php pada baris 9
+
+2022-02-16T08:15:50+00:00 CRITICAL Uncaught Error: Class 'FormVibes\Modules\DashboardWidgets\Module' not found in /home/rizkymau/public_html/lms/wp-content/plugins/form-vibes/inc/bootstrap.php:476
+Stack trace:
+#0 /home/rizkymau/public_html/lms/wp-content/plugins/form-vibes/inc/bootstrap.php(96): FormVibes\Plugin->load_modules()
+#1 /home/rizkymau/public_html/lms/wp-content/plugins/form-vibes/inc/bootstrap.php(34): FormVibes\Plugin->__construct()
+#2 /home/rizkymau/public_html/lms/wp-content/plugins/form-vibes/inc/bootstrap.php(481): FormVibes\Plugin::instance()
+#3 /home/rizkymau/public_html/lms/wp-content/plugins/form-vibes/form-vibes.php(76): require_once('/home/rizkymau/...')
+#4 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(307): {closure}('')
+#5 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /home/rizkymau/public_html/lms/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /home/rizkymau/public_html/lms/wp-settings.php(450): do_action('plugins_loaded')
+#8 /home/ri di /home/rizkymau/public_html/lms/wp-content/plugins/form-vibes/inc/bootstrap.php pada baris 476
+
+2022-02-16T08:24:49+00:00 CRITICAL require_once(): Failed opening required '/home/rizkymau/public_html/lms/wp-content/plugins/anywhere-elementor/includes/post-type.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') di /home/rizkymau/public_html/lms/wp-content/plugins/anywhere-elementor/includes/bootstrap.php pada baris 27
+
+2022-02-16T08:25:31+00:00 CRITICAL require_once(): Failed opening required '/home/rizkymau/public_html/lms/wp-content/plugins/anywhere-elementor/includes/post-type.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') di /home/rizkymau/public_html/lms/wp-content/plugins/anywhere-elementor/includes/bootstrap.php pada baris 27
+
+2022-02-16T08:25:48+00:00 CRITICAL require_once(): Failed opening required '/home/rizkymau/public_html/lms/wp-content/plugins/anywhere-elementor/includes/post-type.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') di /home/rizkymau/public_html/lms/wp-content/plugins/anywhere-elementor/includes/bootstrap.php pada baris 27
+
+2022-02-16T08:25:48+00:00 CRITICAL require_once(): Failed opening required '/home/rizkymau/public_html/lms/wp-content/plugins/anywhere-elementor/includes/post-type.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') di /home/rizkymau/public_html/lms/wp-content/plugins/anywhere-elementor/includes/bootstrap.php pada baris 27
+
+2022-02-16T08:25:48+00:00 CRITICAL require_once(): Failed opening required '/home/rizkymau/public_html/lms/wp-content/plugins/anywhere-elementor/includes/post-type.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') di /home/rizkymau/public_html/lms/wp-content/plugins/anywhere-elementor/includes/bootstrap.php pada baris 27
+
+2022-02-16T08:25:48+00:00 CRITICAL require_once(): Failed opening required '/home/rizkymau/public_html/lms/wp-content/plugins/anywhere-elementor/includes/post-type.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') di /home/rizkymau/public_html/lms/wp-content/plugins/anywhere-elementor/includes/bootstrap.php pada baris 27
+
+2022-02-16T08:26:27+00:00 CRITICAL Uncaught Error: Class 'Essential_Addons_Elementor\Classes\Bootstrap' not found in /home/rizkymau/public_html/lms/wp-content/plugins/essential-addons-for-elementor-lite/essential_adons_elementor.php:53
+Stack trace:
+#0 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(307): {closure}('')
+#1 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/rizkymau/public_html/lms/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/rizkymau/public_html/lms/wp-settings.php(450): do_action('plugins_loaded')
+#4 /home/rizkymau/public_html/lms/wp-config.php(176): require_once('/home/rizkymau/...')
+#5 /home/rizkymau/public_html/lms/wp-load.php(50): require_once('/home/rizkymau/...')
+#6 /home/rizkymau/public_html/lms/wp-blog-header.php(13): require_once('/home/rizkymau/...')
+#7 /home/rizkymau/public_html/lms/index.php(17): require('/home/rizkymau/...')
+#8 {main}
+  thrown di /home/rizkymau/public_html/lms/wp-content/plugins/essential-addons-for-elementor-lite/essential_adons_elementor.php pada baris 53
+
+2022-02-16T08:52:36+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /home/rizkymau/public_html/lms/wp-content/themes/eduma/woocommerce/woocommerce.php:78
+Stack trace:
+#0 /home/rizkymau/public_html/lms/wp-content/themes/eduma/woocommerce/widgets/class-wc-widget-cart.php(38): thim_get_current_cart_info()
+#1 /home/rizkymau/public_html/lms/wp-includes/widgets.php(1257): Thim_Custom_WC_Widget_Cart->widget(Array, Array)
+#2 /home/rizkymau/public_html/lms/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(548): the_widget('Thim_Custom_WC_...', Array)
+#3 /home/rizkymau/public_html/lms/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php(518): WP_REST_Widget_Types_Controller->get_widget_preview('Thim_Custom_WC_...', Array)
+#4 /home/rizkymau/public_html/lms/wp-includes/rest-api/class-wp-rest-server.php(1141): WP_REST_Widget_Types_Controller->encode_form_data(Object(WP_REST_Request))
+#5 /home/rizkymau/public_html/lms/wp-includes/rest-api/class-wp-rest-server.php(988): WP_REST_Server- di /home/rizkymau/public_html/lms/wp-content/themes/eduma/woocommerce/woocommerce.php pada baris 78
+

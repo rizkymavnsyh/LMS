@@ -1,0 +1,139 @@
+.admin-fib-question-editor .lp-box-data-content textarea,
+.admin-quiz-fib-question-editor .lp-box-data-content textarea {
+  width: 100%;
+  min-height: 200px;
+  margin-bottom: 20px; }
+
+.admin-fib-question-editor .lp-box-data-content .description,
+.admin-quiz-fib-question-editor .lp-box-data-content .description {
+  margin-top: 10px;
+  font-style: italic; }
+
+.admin-fib-question-editor .lp-box-data-content .invalid,
+.admin-quiz-fib-question-editor .lp-box-data-content .invalid {
+  color: #FF0000; }
+
+.admin-fib-question-editor .lp-box-data-content .fib-blanks,
+.admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks {
+  width: 100%;
+  border-collapse: collapse; }
+  .admin-fib-question-editor .lp-box-data-content .fib-blanks tbody.invalid,
+  .admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks tbody.invalid {
+    color: #FF0000; }
+    .admin-fib-question-editor .lp-box-data-content .fib-blanks tbody.invalid .blank-actions .blank-status,
+    .admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks tbody.invalid .blank-actions .blank-status {
+      color: #000; }
+      .admin-fib-question-editor .lp-box-data-content .fib-blanks tbody.invalid .blank-actions .blank-status:before,
+      .admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks tbody.invalid .blank-actions .blank-status:before {
+        content: "\f335";
+        color: #FF0000; }
+  .admin-fib-question-editor .lp-box-data-content .fib-blanks tbody.open .blank-options ul,
+  .admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks tbody.open .blank-options ul {
+    display: block; }
+  .admin-fib-question-editor .lp-box-data-content .fib-blanks tbody tr,
+  .admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks tbody tr {
+    background: #F5F5F5; }
+  .admin-fib-question-editor .lp-box-data-content .fib-blanks tbody:nth-of-type(odd) tr,
+  .admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks tbody:nth-of-type(odd) tr {
+    background: #f4fcff; }
+  .admin-fib-question-editor .lp-box-data-content .fib-blanks td.blank-position,
+  .admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks td.blank-position {
+    text-align: right;
+    font-weight: bold; }
+  .admin-fib-question-editor .lp-box-data-content .fib-blanks td.blank-fill input,
+  .admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks td.blank-fill input {
+    width: 100%;
+    height: 28px; }
+  .admin-fib-question-editor .lp-box-data-content .fib-blanks td.blank-actions,
+  .admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks td.blank-actions {
+    text-align: right; }
+    .admin-fib-question-editor .lp-box-data-content .fib-blanks td.blank-actions .delete,
+    .admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks td.blank-actions .delete {
+      color: #FF0000; }
+    .admin-fib-question-editor .lp-box-data-content .fib-blanks td.blank-actions .blank-status,
+    .admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks td.blank-actions .blank-status {
+      float: left;
+      font-family: Dashicons;
+      display: inline-block;
+      font-size: 20px;
+      margin-top: 5px; }
+      .admin-fib-question-editor .lp-box-data-content .fib-blanks td.blank-actions .blank-status:before,
+      .admin-quiz-fib-question-editor .lp-box-data-content .fib-blanks td.blank-actions .blank-status:before {
+        content: "\f147";
+        color: #00a0d2; }
+
+.admin-fib-question-editor .lp-box-data-content .fib-blank > tr > td,
+.admin-quiz-fib-question-editor .lp-box-data-content .fib-blank > tr > td {
+  padding: 5px 5px 5px 0; }
+
+.admin-fib-question-editor .lp-box-data-content .fib-blank .blank-options td,
+.admin-quiz-fib-question-editor .lp-box-data-content .fib-blank .blank-options td {
+  padding: 0 5px 0 0; }
+  .admin-fib-question-editor .lp-box-data-content .fib-blank .blank-options td ul,
+  .admin-quiz-fib-question-editor .lp-box-data-content .fib-blank .blank-options td ul {
+    margin: 5px 0; }
+
+.admin-fib-question-editor .blank-options ul,
+.admin-quiz-fib-question-editor .blank-options ul {
+  display: none;
+  padding: 20px;
+  border: 1px solid #DDD;
+  list-style: none;
+  background: #FFF;
+  margin: 0; }
+  .admin-fib-question-editor .blank-options ul li .description,
+  .admin-quiz-fib-question-editor .blank-options ul li .description {
+    margin-top: 0; }
+  .admin-fib-question-editor .blank-options ul li h3,
+  .admin-quiz-fib-question-editor .blank-options ul li h3 {
+    margin: 0; }
+
+.mce-branding-powered-by {
+  display: none; }
+
+.mce-tinymce {
+  border: 1px solid #DDD !important; }
+
+#admin-editor-lp_quiz .content-editable,
+#admin-editor-lp_question .content-editable {
+  min-height: 300px;
+  border: 1px dashed #DDD;
+  padding: 12px 15px; }
+  #admin-editor-lp_quiz .content-editable .fib-blank,
+  #admin-editor-lp_question .content-editable .fib-blank {
+    color: #2196F3;
+    position: relative; }
+    #admin-editor-lp_quiz .content-editable .fib-blank:before,
+    #admin-editor-lp_question .content-editable .fib-blank:before {
+      content: "#" attr(data-index) ". "; }
+    #admin-editor-lp_quiz .content-editable .fib-blank:after,
+    #admin-editor-lp_question .content-editable .fib-blank:after {
+      border-bottom: 1px dashed #797979;
+      position: absolute;
+      bottom: 1px;
+      left: 0px;
+      right: 0; }
+  #admin-editor-lp_quiz .content-editable p,
+  #admin-editor-lp_question .content-editable p {
+    margin-top: 0; }
+
+#admin-editor-lp_quiz .admin-quiz-fib-question-editor .lp-box-data-content {
+  border: none;
+  text-align: left; }
+  #admin-editor-lp_quiz .admin-quiz-fib-question-editor .lp-box-data-content textarea {
+    width: 100%;
+    margin-bottom: 10px; }
+  #admin-editor-lp_quiz .admin-quiz-fib-question-editor .lp-box-data-content .description {
+    text-align: left; }
+
+.button.ajaxloading:after {
+  content: "\f463";
+  display: inline-block;
+  font: 400 20px/1 dashicons;
+  margin: 3px 0 0 5px;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: top;
+  -webkit-animation: rotation 2s infinite linear;
+  animation: rotation 2s infinite linear; }

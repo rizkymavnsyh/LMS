@@ -1,0 +1,68 @@
+.lp-list-table thead tr th {
+    background: #00adff !important;
+    color: #FFF !important;
+    border-bottom: none;
+}
+
+ul.leanpress-buddpress-list-filters li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+ul.leanpress-buddpress-list-filters li a.active {
+    border-bottom: 2px solid #00adff;
+    padding-bottom: 6px;
+}
+
+
+
+#buddypress ul.learn-press-courses.profile-courses-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#buddypress .profile-courses-list .course-wrap-meta, .profile-courses-list .course-instructor {
+	display: none;
+}
+
+body.buddypress .profile-courses-list h3.course-title {
+	margin: 0;
+}
+
+#buddypress ul.learn-press-courses li.course {
+	list-style: none;
+	display: inline-block;
+	width: 31.33%;
+	 margin: 0 0 20px 0;
+	max-width: 33.33%;
+	box-shadow: none;
+	flex-basis: 33.33%;
+	flex: 1 1 33.33%;
+	padding-right: 2%;
+}
+
+#buddypress ul.learn-press-courses li::marker {
+	content: none;
+}
+
+#buddypress .learn-press-pagination ul.page-numbers {
+	list-style: none;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#buddypress .learn-press-pagination ul.page-numbers li {
+	margin: 0 0 0 8px;
+}
+
+#buddypress .learn-press-pagination ul.page-numbers li a{
+	padding: 5px 10px;
+}
+
+#buddypress .learn-press-pagination ul.page-numbers li span{
+	background: #fff;
+	padding: 5px 10px;
+	border: 1px solid #666;
+}
+
+

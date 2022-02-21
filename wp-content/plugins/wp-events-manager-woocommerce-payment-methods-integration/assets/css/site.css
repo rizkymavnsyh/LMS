@@ -1,0 +1,4 @@
+
+body.woocommerce-cart .woocommerce .wpems-event-product .product-quantity input[type="number"].qty {
+    pointer-events: none;
+}

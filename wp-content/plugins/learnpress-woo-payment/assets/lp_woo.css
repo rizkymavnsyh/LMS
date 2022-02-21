@@ -1,0 +1,30 @@
+.wrap-btn-add-course-to-cart,.btn-lp-course-view-cart .lp-button {
+	display: inline-block;
+}
+
+.lp-archive-courses .course-content .lp-button {
+	padding: 9px 24px;
+	border-radius: 3px;
+	color: #fff;
+	background: var(--lp-primary-color);
+	font-weight: 400;
+	line-height: 1;
+	transition: all 0.3s;
+	font-size: 14px;
+	border: none;
+}
+
+.woocommerce-tabs ul.list-courses-assign-product {
+	margin-left: 25px!important;
+	list-style-type: numeric;
+	text-align: left;
+	border: none!important;
+	max-width: none!important;
+}
+
+ul.list-courses-assign-product li {
+	display: list-item!important;
+}
+.woocommerce-tabs ul.list-courses-assign-product li a{
+	padding: 0;
+}

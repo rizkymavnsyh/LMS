@@ -1,0 +1,954 @@
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 02:40:53
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.36 -- Build Server: 10.4.19
+FILE SIZE:	dup-database__[HASH].sql (9.2MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/rizkymau/public_html/lms/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.36] is less than the build version [10.4.19].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	719
+
+wp_actionscheduler_actions: (70)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (3)
+wp_actionscheduler_logs: (200)
+wp_addonlibrary_addons: (0)
+wp_addonlibrary_categories: (0)
+wp_commentmeta: (10)
+wp_comments: (10)
+wp_duplicator_packages: (0)
+wp_e_submissions: (2)
+wp_e_submissions_actions_log: (2)
+wp_e_submissions_values: (6)
+wp_fv_enteries: (17)
+wp_fv_entry_meta: (102)
+wp_fv_logs: (0)
+wp_learnpress_order_itemmeta: (73)
+wp_learnpress_order_items: (18)
+wp_learnpress_question_answermeta: (6)
+wp_learnpress_question_answers: (446)
+wp_learnpress_quiz_questions: (146)
+wp_learnpress_review_logs: (0)
+wp_learnpress_section_items: (153)
+wp_learnpress_sections: (17)
+wp_learnpress_sessions: (4)
+wp_learnpress_user_item_results: (17)
+wp_learnpress_user_itemmeta: (1)
+wp_learnpress_user_items: (90)
+wp_links: (0)
+wp_nextend2_image_storage: (0)
+wp_nextend2_section_storage: (1)
+wp_nextend2_smartslider3_generators: (0)
+wp_nextend2_smartslider3_sliders: (1)
+wp_nextend2_smartslider3_sliders_xref: (0)
+wp_nextend2_smartslider3_slides: (2)
+wp_options: (801)
+wp_pmpro_discount_codes: (0)
+wp_pmpro_discount_codes_levels: (0)
+wp_pmpro_discount_codes_uses: (0)
+wp_pmpro_membership_levelmeta: (0)
+wp_pmpro_membership_levels: (0)
+wp_pmpro_membership_ordermeta: (0)
+wp_pmpro_membership_orders: (0)
+wp_pmpro_memberships_categories: (0)
+wp_pmpro_memberships_pages: (0)
+wp_pmpro_memberships_users: (0)
+wp_postmeta: (9682)
+wp_posts: (976)
+wp_term_relationships: (210)
+wp_term_taxonomy: (60)
+wp_termmeta: (118)
+wp_terms: (60)
+wp_usermeta: (124)
+wp_users: (4)
+wp_wc_admin_note_actions: (52)
+wp_wc_admin_notes: (48)
+wp_wc_category_lookup: (6)
+wp_wc_customer_lookup: (1)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (4)
+wp_wc_order_stats: (3)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (0)
+wp_wc_rate_limits: (0)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (36)
+wp_woocommerce_order_items: (4)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_wpforms_tasks_meta: (10)
+Removed '61' cache/transient rows
+
+INSERT DATA RUNTIME: 13.3519 sec.
+STEP-2 COMPLETE @ 02:41:06 - RUNTIME: 13.4994 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 02:41:33
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "LMS"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "E:/xampp/htdocs/teslms"
+path_new______________: "/home/rizkymau/public_html/lms"
+siteurl_______________: "https://lms.rizkymaulana.my.id"
+url_old_______________: "http://localhost/teslms"
+url_new_______________: "https://lms.rizkymaulana.my.id"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    70][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   200][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_addonlibrary_addons"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_addonlibrary_categories"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_fv_enteries"__________________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_fv_entry_meta"________________________________[ROWS:   102][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_fv_logs"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_order_itemmeta"____________________[ROWS:    73][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_learnpress_order_items"_______________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_learnpress_question_answermeta"_______________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_learnpress_question_answers"__________________[ROWS:   446][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_learnpress_quiz_questions"____________________[ROWS:   146][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_learnpress_review_logs"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_learnpress_section_items"_____________________[ROWS:   153][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_learnpress_sections"__________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_learnpress_sessions"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_learnpress_user_item_results"_________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_learnpress_user_itemmeta"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_learnpress_user_items"________________________[ROWS:    90][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_image_storage"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_section_storage"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_generators"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders"________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_sliders_xref"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_nextend2_smartslider3_slides"_________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   801][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_pmpro_discount_codes"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_discount_codes_levels"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_discount_codes_uses"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_membership_levelmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_membership_levels"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_membership_ordermeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_membership_orders"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_memberships_categories"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_memberships_pages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_pmpro_memberships_users"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  9682][PG:   3][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   976][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   210][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    60][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:   118][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    60][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   124][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    52][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    48][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:    36][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"E:/xampp/htdocs/teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  2:"E:\/xampp\/htdocs\/teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  3:"E%3A%2Fxampp%2Fhtdocs%2Fteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  4:"E:\xampp\htdocs\teslms" ==========================> "/home/rizkymau/public_html/lms"
+	SEARCH  5:"E:\\xampp\\htdocs\\teslms" =======================> "\/home\/rizkymau\/public_html\/lms"
+	SEARCH  6:"E%3A%5Cxampp%5Chtdocs%5Cteslms" ==================> "%2Fhome%2Frizkymau%2Fpublic_html%2Flms"
+	SEARCH  7:"//localhost/teslms" ==============================> "//lms.rizkymaulana.my.id"
+	SEARCH  8:"\/\/localhost\/teslms" ===========================> "\/\/lms.rizkymaulana.my.id"
+	SEARCH  9:"%2F%2Flocalhost%2Fteslms" ========================> "%2F%2Flms.rizkymaulana.my.id"
+	SEARCH 10:"http://lms.rizkymaulana.my.id" ===================> "https://lms.rizkymaulana.my.id"
+	SEARCH 11:"http:\/\/lms.rizkymaulana.my.id" =================> "https:\/\/lms.rizkymaulana.my.id"
+	SEARCH 12:"http%3A%2F%2Flms.rizkymaulana.my.id" =============> "https%3A%2F%2Flms.rizkymaulana.my.id"
+--------------------------------------
+SCANNED:	Tables:82 	|	 Rows:13599 	|	 Cells:76749 
+UPDATED:	Tables:8 	|	 Rows:905 	|	 Cells:984 
+ERRORS:		0 
+RUNTIME:	2.036400 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 02:41:35 - RUNTIME: 2.1913 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

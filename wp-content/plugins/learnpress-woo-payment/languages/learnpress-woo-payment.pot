@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Package Name\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 06:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: learnpress-woo-payment/templates/wc-order-profile.php:43
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: learnpress-woo-payment/templates/wc-order-profile.php:22
+msgid "Actions"
+msgstr ""
+
+#: learnpress-woo-payment/templates/add-course-to-cart.php:34
+msgid "Add to cart"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-woo-assign-course-to-product.php:166
+msgid "Assign courses to this product"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-gateway-woo.php:127
+msgid "Buy courses via Product"
+msgstr ""
+
+#. Description of the plugin
+msgid "By courses via Woocommerce."
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-woo-ajax.php:48
+msgid "course is invalid"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-woo-ajax.php:82
+msgid "Course is only added one time."
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-woo-assign-course-to-product.php:145
+#: learnpress-woo-payment/incs/class-lp-woo-assign-course-to-product.php:240
+msgid "Courses"
+msgstr ""
+
+#: learnpress-woo-payment/templates/wc-order-profile.php:21
+msgid "Date"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-wc-hooks.php:681
+msgid "Deleted"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-wc-hooks.php:530
+msgid "Displaying {{from}} to {{to}} of {{total}} {{item_name}}."
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-gateway-woo.php:119
+msgid "Enable"
+msgstr ""
+
+#: learnpress-woo-payment/incs/admin/course.php:68
+msgid "Enable taxes"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-gateway-woo.php:91
+msgid "Enable to redirect to page Checkout when add to cart"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-woo-ajax.php:35
+msgid "error"
+msgstr ""
+
+#: learnpress-woo-payment/incs/admin/course.php:57
+msgid "Global"
+msgstr ""
+
+#: learnpress-woo-payment/templates/wc-order-profile.php:36
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://thimpress.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://thimpress.com/product/woocommerce-add-on-for-learnpress/"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-gateway-woo.php:132
+msgid ""
+"If enable system will access assign courses to product, and user want "
+"enroll/buy course must buy via product"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-gateway-woo.php:99
+msgid ""
+"If enabled system will use Payment, Checkout page, Options of Woocommerce "
+"instead of Learnpress"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-woo-assign-course-to-product.php:129
+msgid "If you want to buy courses, please go to the"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-wc-hooks.php:602
+msgid ""
+"If you want to change status of this Order, you must go to Woocommerce Order "
+"related and change"
+msgstr ""
+
+#. Name of the plugin
+msgid "LearnPress - WooCommerce Payment Methods Integration"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-gateway-woo.php:18
+msgid "Make a payment with WooCommerce payment methods."
+msgstr ""
+
+#: learnpress-woo-payment/incs/admin/course.php:59
+msgid "No"
+msgstr ""
+
+#: learnpress-woo-payment/templates/wc-order-profile.php:18
+msgid "Order"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-wc-hooks.php:272
+msgid "Order on"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-wc-hooks.php:488
+msgid "Order Woocommerce"
+msgstr ""
+
+#: learnpress-woo-payment/templates/wc-order-profile.php:14
+msgid "Orders Woocommerce"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-woo-ajax.php:39
+msgid "Params invalid"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-woo-assign-course-to-product.php:275
+msgid "Product which has courses is only added one time."
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-gateway-woo.php:138
+msgid "Redirect to Woo checkout"
+msgstr ""
+
+#: learnpress-woo-payment/templates/wc-order-profile.php:20
+msgid "Status"
+msgstr ""
+
+#: learnpress-woo-payment/incs/admin/course.php:63
+msgid "Tax"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThimPress"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-wc-hooks.php:580
+msgid "This order is related to LearnPress order"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-wc-hooks.php:600
+msgid "This order is related to Woocommerce order"
+msgstr ""
+
+#: learnpress-woo-payment/templates/wc-order-profile.php:19
+msgid "Total"
+msgstr ""
+
+#: learnpress-woo-payment/templates/view-cart.php:19
+msgid "View cart"
+msgstr ""
+
+#: learnpress-woo-payment/incs/class-lp-gateway-woo.php:17
+msgid "WooCommerce Payment"
+msgstr ""
+
+#: learnpress-woo-payment/incs/admin/course.php:58
+msgid "Yes"
+msgstr ""

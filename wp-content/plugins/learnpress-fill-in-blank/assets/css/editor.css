@@ -1,0 +1,63 @@
+.fib-blank {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.fib-blank:before,
+.fib-blank:after {
+    content: attr(data-fill);
+    background: #d0e9ff;
+}
+
+.fib-blank[data-fill=""]:after {
+    display: none;
+}
+
+.fib-blank[data-fill=""]:before {
+    content: '_ _ _ _ _';
+    float: right;
+}
+
+.fib-blank:not([data-fill=""]):before {
+    display: none;
+}
+
+.fib-blank:not([data-fill=""]):after {
+    content: attr(data-fill);
+}
+
+.fib-blank .remove {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #c0d2da;
+    border-radius: 50%;
+    color: #e91e63;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    top: -8px;
+    right: -8px;
+    display: none;
+}
+.fib-blank .remove:before {
+    font-family: Dashicons;
+    content: '\f335';
+}
+.fib-blank:hover .remove{
+    display: block;
+}
+.mce-branding-powered-by{
+    display: none;
+}
+.mce-i-clear-blanks,
+.mce-i-insert-blank{
+    font-family: Dashicons;
+}
+.mce-i-insert-blank{
+    content: "\f132";
+}
+.mce-i-clear-blanks{
+    content: "\f335";
+}

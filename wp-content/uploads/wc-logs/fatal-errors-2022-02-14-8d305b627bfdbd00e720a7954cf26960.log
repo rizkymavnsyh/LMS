@@ -1,0 +1,36 @@
+2022-02-14T06:55:20+00:00 CRITICAL Uncaught Error: Class 'MC4WP_Form_Previewer' not found in /home/rizkymau/public_html/lms/wp-content/plugins/mailchimp-for-wp/includes/forms/class-form-manager.php:57
+Stack trace:
+#0 /home/rizkymau/public_html/lms/wp-content/plugins/mailchimp-for-wp/mailchimp-for-wp.php(73): MC4WP_Form_Manager->__construct()
+#1 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(307): _mc4wp_load_plugin('')
+#2 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/rizkymau/public_html/lms/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/rizkymau/public_html/lms/wp-settings.php(450): do_action('plugins_loaded')
+#5 /home/rizkymau/public_html/lms/wp-config.php(175): require_once('/home/rizkymau/...')
+#6 /home/rizkymau/public_html/lms/wp-load.php(50): require_once('/home/rizkymau/...')
+#7 /home/rizkymau/public_html/lms/wp-admin/admin-ajax.php(22): require_once('/home/rizkymau/...')
+#8 {main}
+  thrown di /home/rizkymau/public_html/lms/wp-content/plugins/mailchimp-for-wp/includes/forms/class-form-manager.php pada baris 57
+
+2022-02-14T06:56:41+00:00 CRITICAL Uncaught Error: Class 'MC4WP_Form_Manager' not found in /home/rizkymau/public_html/lms/wp-content/plugins/mailchimp-for-wp/mailchimp-for-wp.php:73
+Stack trace:
+#0 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(307): _mc4wp_load_plugin('')
+#1 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/rizkymau/public_html/lms/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /home/rizkymau/public_html/lms/wp-settings.php(450): do_action('plugins_loaded')
+#4 /home/rizkymau/public_html/lms/wp-config.php(175): require_once('/home/rizkymau/...')
+#5 /home/rizkymau/public_html/lms/wp-load.php(50): require_once('/home/rizkymau/...')
+#6 /home/rizkymau/public_html/lms/wp-blog-header.php(13): require_once('/home/rizkymau/...')
+#7 /home/rizkymau/public_html/lms/index.php(17): require('/home/rizkymau/...')
+#8 {main}
+  thrown di /home/rizkymau/public_html/lms/wp-content/plugins/mailchimp-for-wp/mailchimp-for-wp.php pada baris 73
+
+2022-02-14T07:19:57+00:00 CRITICAL Uncaught Error: Class 'Dhii\Container\ServiceProvider' not found in /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php:26
+Stack trace:
+#0 /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce-paypal-payments/bootstrap.php(29): WooCommerce\PayPalCommerce\PluginModule->setup()
+#1 [internal function]: {closure}(Object(WooCommerce\PayPalCommerce\PluginModule))
+#2 /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce-paypal-payments/bootstrap.php(31): array_map(Object(Closure), Array)
+#3 /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce-paypal-payments/woocommerce-paypal-payments.php(73): {closure}('/home/rizkymau/...')
+#4 /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce-paypal-payments/woocommerce-paypal-payments.php(83): WooCommerce\PayPalCommerce\init()
+#5 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(307): WooCommerce\PayPalCommerce\{closure}('')
+#6 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.ph di /home/rizkymau/public_html/lms/wp-content/plugins/woocommerce-paypal-payments/src/PluginModule.php pada baris 26
+

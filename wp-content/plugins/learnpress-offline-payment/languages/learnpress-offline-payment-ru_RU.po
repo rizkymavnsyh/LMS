@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LearnPress Offline Payment\n"
+"Report-Msgid-Bugs-To: BUG-EMAIL-ADDR <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: yyyy-mm-dd hh:mm+0000\n"
+"PO-Revision-Date: 2016-09-09 06:38+0000\n"
+"Last-Translator: tvardovsky <tvardovsky@me.com>\n"
+"Language-Team: Russian\n"
+"Language: ru-RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: incs/class-lp-gateway-offline-payment.php:15
+msgid "Offline Payment"
+msgstr "Платеж оффлайн"
+
+#: incs/class-lp-gateway-offline-payment.php:16
+msgid "Make a payment with cash."
+msgstr "Заплатить наличными"
+
+#: incs/class-lp-gateway-offline-payment.php:51
+msgid "Thank you! Your order has been completed!"
+msgstr "Спасибо, ваш заказ принят!"
+
+#: incs/class-lp-gateway-offline-payment.php:78
+msgid "Payment to be made upon delivery."
+msgstr "Платеж будет произведен при доставке"
+
+#: incs/class-lp-gateway-offline-payment.php:109
+msgid "Enable"
+msgstr "Разрешить"
+
+#: incs/class-lp-gateway-offline-payment.php:115
+msgid "Title"
+msgstr "Заголовок"
+
+#: incs/class-lp-gateway-offline-payment.php:122
+msgid "Description"
+msgstr "Описание"
+
+#: incs/class-lp-gateway-offline-payment.php:129
+msgid "Instructions"
+msgstr "Указания"
+
+#: incs/class-lp-gateway-offline-payment.php:134
+msgid ""
+"Some instructions to user, e.g: What need to do next in order to complete "
+"the order."
+msgstr ""
+"Указания для пользователя, например: что нужно сделать для завершения заказа."

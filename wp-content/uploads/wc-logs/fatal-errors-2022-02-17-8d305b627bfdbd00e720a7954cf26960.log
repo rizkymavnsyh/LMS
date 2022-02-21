@@ -1,0 +1,11 @@
+2022-02-17T00:35:03+00:00 CRITICAL Uncaught Error: Class '\ElementorPro\Modules\ScrollSnap\Module' not found in /home/rizkymau/public_html/lms/wp-content/plugins/elementor-pro/core/modules-manager.php:72
+Stack trace:
+#0 /home/rizkymau/public_html/lms/wp-content/plugins/elementor-pro/plugin.php(311): ElementorPro\Core\Modules_Manager->__construct()
+#1 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(307): ElementorPro\Plugin->on_elementor_init('')
+#2 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 /home/rizkymau/public_html/lms/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#4 /home/rizkymau/public_html/lms/wp-content/plugins/elementor/includes/plugin.php(647): do_action('elementor/init')
+#5 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(307): Elementor\Plugin->init('')
+#6 /home/rizkymau/public_html/lms/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 /home/rizkymau/public_html/lms/wp-includes/plugin.php(474): WP_Hook->do_action di /home/rizkymau/public_html/lms/wp-content/plugins/elementor-pro/core/modules-manager.php pada baris 72
+
